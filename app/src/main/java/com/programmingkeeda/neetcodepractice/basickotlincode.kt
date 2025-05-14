@@ -15,4 +15,7 @@ fun main() {
 
     val nums2 = intArrayOf(1, 2, 3, 4)
     println(containsDuplicate(nums2)) // Output: false
-}
+
+    val nums3 = intArrayOf(1, 2, 3, 4,6,7,5,3,5,4,3,5)
+    println(containsDuplicate(nums3)) // Output: false
+ }
