@@ -19,7 +19,8 @@ fun main() {
     // Test Case 1
     val s1 = "racecar"
     val t1 = "carrace"
-    println("Are \"$s1\" and \"$t1\" anagrams? ${validAnagram.isAnagram(s1, t1)}")  // Output: true
+    println("Are \"$s1\" and \"$t1\" anagrams?" +
+            " ${validAnagram.isAnagram(s1, t1)}")  // Output: true
 
     // Test Case 2
     val s2 = "jar"
